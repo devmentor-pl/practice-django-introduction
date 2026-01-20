@@ -1,0 +1,100 @@
+# Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.virtualenvs/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.example
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - PyCharm
+.pycharm/
+*.pyc
+*.pyo
+*.pyd
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+*.egg
+*.eggs/
+
+# Django
+*.sqlite3
+*.db
+/media/
+/staticfiles/
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS - Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# OS - macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# OS - Linux
+.directory
+
+# Node modules (if used for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Miscellaneous
+.venv
+.installed.cfg
+.webassets-cache
+instance/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
