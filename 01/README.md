@@ -5,7 +5,7 @@
 # `#01` Django: Wprowadzenie
 
 1. Utwórz nowy katalog na projekt Django i przejdź do niego w terminalu.
-2. W tym katalogu utwórz i aktywuj nowe środowisko wirtualne
+2.  W tym katalogu utwórz i aktywuj nowe środowisko wirtualne
 3. Zainstaluj Django w aktywnym środowisku:
 4. Utwórz nowy projekt Django poleceniem:
 5. Przejdź do katalogu projektu:
