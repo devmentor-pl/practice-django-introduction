@@ -10,3 +10,7 @@ def info(request):
     author = "Anna Nowak"
     year = datetime.datetime.now().year
     return render(request, 'first_app/info.html', {'author': author, 'year': year})
+
+
+def greet(request, name):
+    return HttpResponse(f'Witaj, {name}!')
