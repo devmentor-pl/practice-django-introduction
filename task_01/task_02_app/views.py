@@ -1,6 +1,12 @@
-from django.http import HttpResponse
+from django.shortcuts import render, HttpResponse
+import datetime
 
-# Create your views here.
 
 def hello(request):
-    return HttpResponse("To mój pierwszy widok w Django!")
+    return HttpResponse('To jest mój pierwszy widok w Django!')
+
+
+def info(request):
+    author = "Anna Nowak"
+    year = datetime.datetime.now().year
+    return render(request, 'first_app/info.html', {'author': author, 'year': year})
