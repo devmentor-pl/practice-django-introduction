@@ -14,3 +14,10 @@ def info(request):
 
 def greet(request, name):
     return HttpResponse(f'Witaj, {name}!')
+
+
+def name_form(request):
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        return HttpResponse(f'Witaj, {name}!')
+    return render(request, 'first_app/name_form.html')
