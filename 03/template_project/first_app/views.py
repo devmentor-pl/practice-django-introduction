@@ -4,7 +4,7 @@ import datetime
 
 def first_view(request):
     context = {
-        'author': 'autor',
+        'author': 'Anna Nowak',
         'year': datetime.datetime.now().year
     }
     return render(request, 'first_app/info.html', context)

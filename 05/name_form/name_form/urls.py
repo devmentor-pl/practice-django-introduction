@@ -20,5 +20,5 @@ from form_app.views import form_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('form/', form_view)
+    path('form/', form_view, name='form_view')
 ]
